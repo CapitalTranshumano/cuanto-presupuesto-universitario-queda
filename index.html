@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cuánto presupuesto universitario queda</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <div class="fondos">
+    <img src="img/foto-01.jpg" alt="">
+    <img src="img/foto-02.jpg" alt="">
+    <img src="img/foto-03.jpg" alt="">
+    <img src="img/foto-04.jpg" alt="">
+    <img src="img/foto-05.jpg" alt="">
+    <img src="img/foto-06.jpg" alt="">
+    <img src="img/foto-07.jpg" alt="">
+  </div>
+  <div id="anim"></div>
+  <div class="contador">
+    <p>Quedan</p>
+    <p class="reloj"><span id="dias"></span>d <span id="horas"></span>h <span id="minutos"></span>m <span id="segundos"></span>s</p>
+    <p>De presupuesto <span class="block">Universitario</span></p>
+    <div class="progreso">
+      <div class="progreso__barra"></div>
+    </div>
+    <div class="opciones">
+      <label for="base">
+        <input type="checkbox" id="base" checked disabled>
+        Presupuesto inicial
+      </label>
+      <label for="con-aumento-70">
+        <input type="checkbox" id="con-aumento-70" checked>
+        +70% anunciado marzo
+      </label>
+      <label for="con-aumento-140">
+        <input type="checkbox" id="con-aumento-140">
+        +70% anunciado mayo
+      </label>
+    </div>
+  </div>
+  <footer>
+    <p><small>Estimación sobre los gastos de funcionamiento de las UUNN, basado en <a href="https://chequeado.com/el-explicador/claves-sobre-al-anuncio-del-gobierno-en-la-previa-de-la-marcha-universitaria/" target="_blank">chequeado.com</a>  .</small></p>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.2/p5.min.js"></script>
+  <script src="js/funciones.js"></script>
+</body>
+</html>
